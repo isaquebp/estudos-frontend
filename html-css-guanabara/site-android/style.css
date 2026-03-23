@@ -1,19 +1,24 @@
 @font-face {
     font-family: 'impactante';
-    src: url(galeria/fontes/Impact.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    src: url(galeria/fontes/Impact.ttf);
+}
+
+@font-face {
+    font-family: 'android';
+    src: url(galeria/fontes/idroid.otf);
 }
 
 body {
     background-color: #67E6A7;
     margin: 0px;
+    font-size: 1em;
 }
 
 header {
     background-image: linear-gradient(to bottom, #26cc79, #1c4e35);
     width: 100%;
     padding: 10px 0 10px 0;
+    box-shadow: 0 0 10px black;
 }
 
 h1 {
@@ -29,7 +34,82 @@ header > p {
 }
 
 b > a {
-    color: white;
+    color: rgb(255, 255, 255);
     margin-left: 15px;
     text-decoration: none;
+}
+
+section {
+    background-color: white;
+}
+
+#introducao > h2 {
+    margin-top: 0;
+    padding-top: 20px;
+    font-family: 'android';
+    color: #287c52;
+}
+
+section {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+article > h3 {
+    font-family: 'android';
+    color: #287c52;
+}
+
+
+.dandroids-irina {
+    width: 95%;
+}
+
+#video {
+    background-color: #287c52;
+    padding: 20px;
+}
+
+iframe {
+    width: 100%;
+}
+
+#final {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+}
+
+#versoes {
+    background-color: #4dd390a1;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+#aprender-mais {
+    margin-top: 0;
+    padding: 10px;
+    background-color: #0ca357;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.text {
+    margin: 10px 10px 10px 10px;
+    text-indent: 30px;
+}
+
+#creditos {
+    text-align: center;
+    background-color: #1c4e35;
+    margin-bottom: 0;
+    padding: 5px 0px 5px 0;
+    color: white;
+    font-style: italic;
 }
