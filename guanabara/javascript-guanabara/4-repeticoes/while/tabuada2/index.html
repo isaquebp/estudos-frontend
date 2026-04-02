@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hora do Dia</title>
-    <link rel="stylesheet" href="estilo/style.css">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -12,11 +12,15 @@
     </header>
     <main>
         <section>
-            <div id="msg">
-                Aqui vai aparecer a mensagem
+            <div id="principal">
+                Número: 
+                <input type="number" name="numtxt" id="numtxt">
+                <input type="button" value="Gerar tabuada" onclick="gerar()">
             </div>
-            <div id="foto">
-                <img id="imagem" src="" alt="Foto do dia">
+            <div>
+                <select name="tab" id="tab" size="10">
+                    <option value="">Digite um numero acima</option>
+                </select>
             </div>
         </section>
     </main>
