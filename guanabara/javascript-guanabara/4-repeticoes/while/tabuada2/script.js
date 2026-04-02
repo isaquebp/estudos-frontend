@@ -9,6 +9,7 @@ function gerar(){
         option = document.createElement('option')
         option.innerHTML = `${num} x ${c} = ${num * c}`
         tab.appendChild(option)
+        option.value = `tab${c}`
         c++
     }
 }
