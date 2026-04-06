@@ -21,12 +21,16 @@ section {
     margin-top: 20px;
 }
 
-#inputs {
-    padding-bottom: 15px;
+select#tab {
+    width: 150px;
 }
 
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+#numtxt {
+    margin-bottom: 20px;
 }
